@@ -64,7 +64,7 @@ header h1 {
 
 #main-menu a {
     display: inline-block;
-    padding: 10px;
+    padding: 14px 10px 10px 10px;
     margin: 0 25px;
     font-size: 1.6vw;
     font-weight: 500;
@@ -206,22 +206,14 @@ section {
 /* End Work Styles */
 
 /* Contact Styles */
-#contact {
-    text-align: center;
-}
-#contact-container {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: left;
-}
-
 #contact h2 {
+    margin-left:20%;
     font-size: 46px;
     padding: 100px 100px 0px 0;
 }
 
 #contact ul {
-    margin: 20px 0 50px 170px;
+    margin: 20px 0 50px 40%;
     list-style: none;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -264,15 +256,53 @@ footer {
 /* End Footer Styles */
 
 /* Media Queries */
+@media screen and (max-width: 1024px) {
+    header h1 {
+        font-size: 32px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    header h1,
+    #main-menu,
+    #footer-menu,
+    #legal {
+        flex-basis: 100%;
+    }
+
+    #legal {
+        margin-top:40px;
+        text-align: center;
+    }
+
+    #main-menu a,
+    #footer-menu a,
+    #legal {
+        font-size: 18px;
+    }
+
+    #hero h2 {
+        font-size: 36px;
+    }
+
+    #about-text {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 980px) {
     .main-section h2 {
         font-size: 52px;
         width: 85px;
         height: 85px;
     }
-    
-    #about-text {
-        width: 100%;
+
+    #work h2 {
+        padding: 80px 45px 20px 55px;
+    }
+
+    #contact h2 {
+        padding: 90px 100px 10px 0px;
     }
 }
 
@@ -298,6 +328,10 @@ footer {
     #about img {
         margin-top: 90px;
         margin-right: 0;
+    }
+
+    #work li {
+        flex-basis: 100%;
     }
 }
 /* End Media Queries */
