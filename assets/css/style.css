@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #1e1e7c;
+    --primary-color: #000980;
     --white: #ffffff;
-    --accent-color: #c41cc4;
+    --accent-color: #8a0096;
 }
 
 * {
@@ -79,7 +79,7 @@ header h1 {
 
 /* Global Section Styles */
 section {
-    padding: 50px 10% 60px 10%;
+    padding: 50px 10% 80px 10%;
 }
 /* End Global Section Styles */
 
@@ -96,7 +96,7 @@ section {
     font-size: 3.5vw;
     font-weight: normal;
     display: inline-block;
-    margin: 17% 0 10% 0;
+    margin: 18% 0 10% 0;
 }
 /* End Hero Styles */
 
@@ -118,16 +118,17 @@ section {
 #about h2 {
     padding: 45px 100px 55px 0;
     float: right;
-    margin: 0 -220px 8% 8%;
+    margin: 0 -22% 6% 6%;
     position: relative;
     z-index: -1;
 }
 
 #about img {
-    width: 400px;
+    width: 40%;
+    min-width: 275px;
     height: auto;
     float:right;
-    margin: 110px 0 8% 8%;
+    margin: 110px 0 6% 6%;
 }
 
 #about-text {
@@ -261,3 +262,42 @@ footer {
     opacity: .5;
 }
 /* End Footer Styles */
+
+/* Media Queries */
+@media screen and (max-width: 980px) {
+    .main-section h2 {
+        font-size: 52px;
+        width: 85px;
+        height: 85px;
+    }
+    
+    #about-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #about img {
+        width: 50%;
+        margin-right: 10%;
+    }
+    
+    #about-text {
+        clear:both;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .main-section h2 {
+        font-size: 48px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #about img {
+        margin-top: 90px;
+        margin-right: 0;
+    }
+}
+/* End Media Queries */
