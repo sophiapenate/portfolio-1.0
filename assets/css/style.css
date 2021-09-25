@@ -87,6 +87,7 @@ section {
 #hero img {
     margin:3% -5% 0 5%;
     width: 30%;
+    min-width: 200px;
     height: auto;
     float: left;
 }
@@ -243,7 +244,7 @@ footer {
 
 #footer-menu a {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 5px;
     margin: 0 25px;
     font-size: 16px;
     font-weight: 500;
@@ -298,6 +299,14 @@ footer {
         height: 85px;
     }
 
+    #hero img {
+        margin-left: 0%;
+    }
+
+    #hero h2 {
+        width: calc(100% - 200px);
+    }
+
     #work h2 {
         padding: 80px 45px 20px 55px;
     }
@@ -349,13 +358,38 @@ footer {
         height: 60px;
     }
 
+    #hero {
+        text-align: center;
+    }
+
+    #hero img {
+        float: none;
+        margin: 0;
+    }
+
+    #hero h2 {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
     #about img {
         margin-top: 90px;
         margin-right: 0;
     }
 
-    #work li {
-        flex-basis: 100%;
+    #work h2 {
+        padding: 75px 65px 25px 35px;
+    }
+
+    #contact h2 {
+        font-size: 36px;
+        padding: 85px 95px 15px 5px;
+        margin-left: 5%;
+    }
+
+    #contact ul {
+        margin-left: 25%;
     }
 }
 /* End Media Queries */
