@@ -31,7 +31,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 5%;
 }
 
 header h1 {
@@ -62,13 +62,15 @@ header h1 {
 }
 /* End Header Styles */
 
-/* Hero Styles */
-#hero {
-    padding: 40px 40px 90px 40px;
+/* Global Section Styles */
+section {
+    padding: 100px 10%;
 }
+/* End Global Section Styles */
 
+/* Hero Styles */
 #hero img {
-    margin-left: 8%;
+    margin-left: 5%;
     margin-right: -5%;
     width: 30%;
     height: auto;
@@ -76,7 +78,7 @@ header h1 {
 }
 
 #hero h2 {
-    width:60%;
+    width:70%;
     font-size: 3.5vw;
     font-weight: normal;
     display: inline-block;
@@ -90,17 +92,48 @@ header h1 {
     background-color: var(--primary-color);
     color: var(--white);
     font-weight: normal;
-    font-size: 48px;
+    font-size: 58px;
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 /* End Main Section Styles */
 
 /* About Styles */
+#about {
+}
+
 #about h2 {
-    padding: 40px 100px 60px 0;
+    padding: 45px 100px 55px 0;
+    float: right;
+    margin: 0 -220px 8% 8%;
+    position: relative;
+    z-index: -1;
+}
+
+#about img {
+    width: 400px;
+    height: auto;
+    float:right;
+    margin: 110px 0 8% 8%;
+}
+
+#about-text {
+    margin-top:200px;
+    width: 80%;
+}
+
+#about-text p {
+    margin-top: 20px;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+#about-text .paragraph-start {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 /* End About Styles */
 
