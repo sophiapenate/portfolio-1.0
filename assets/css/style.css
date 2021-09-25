@@ -4,6 +4,10 @@
     --accent-color: #c41cc4;
 }
 
+img  {
+    max-width: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@
 
 body {
     color: var(--primary-color);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 a {
@@ -58,6 +62,61 @@ header h1 {
 }
 /* End Header Styles */
 
+/* Hero Styles */
+#hero {
+    padding: 40px 40px 90px 40px;
+}
+
+#hero img {
+    margin-left: 8%;
+    margin-right: -5%;
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+#hero h2 {
+    width:60%;
+    font-size: 3.5vw;
+    font-weight: normal;
+    display: inline-block;
+    margin-top: 15%;
+}
+/* End Hero Styles */
+
+/* Main Section Styles */
+.main-section h2 {
+    box-sizing: content-box;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: normal;
+    font-size: 48px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+/* End Main Section Styles */
+
+/* About Styles */
+#about h2 {
+    padding: 40px 100px 60px 0;
+}
+/* End About Styles */
+
+/* Work Styles */
+#work h2 {
+    padding: 80px 40px 20px 60px;
+}
+/* End Work Styles */
+
+/* Contact Styles */
+#contact h2 {
+    font-size: 42px;
+    padding: 90px 100px 10px 0;
+}
+/* End Contact Styles */
+
 /* Footer Styles */
 footer {
     font-family: 'Roboto', sans-serif;
@@ -65,7 +124,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 #footer-menu ul {
