@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--accent-color);
+}
+
 .button {
     display: inline-block; 
     padding: .6em .9em;
@@ -43,7 +47,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
+    padding: 25px 5%;
 }
 
 header h1 {
@@ -69,21 +73,19 @@ header h1 {
 }
 
 #main-menu a:hover {
-    color: var(--accent-color);
     border-bottom: solid 4px var(--accent-color);
 }
 /* End Header Styles */
 
 /* Global Section Styles */
 section {
-    padding: 100px 10%;
+    padding: 50px 10% 60px 10%;
 }
 /* End Global Section Styles */
 
 /* Hero Styles */
 #hero img {
-    margin-left: 5%;
-    margin-right: -5%;
+    margin:3% -5% 0 5%;
     width: 30%;
     height: auto;
     float: left;
@@ -94,7 +96,7 @@ section {
     font-size: 3.5vw;
     font-weight: normal;
     display: inline-block;
-    margin-top: 15%;
+    margin: 17% 0 10% 0;
 }
 /* End Hero Styles */
 
@@ -113,9 +115,6 @@ section {
 /* End Main Section Styles */
 
 /* About Styles */
-#about {
-}
-
 #about h2 {
     padding: 45px 100px 55px 0;
     float: right;
@@ -167,7 +166,7 @@ section {
 #work li {
     list-style: none;
     flex-basis: 42%;
-    margin: 40px 0 80px 0;
+    margin: 20px 0 100px 0;
 }
 
 #work li img {
@@ -206,9 +205,28 @@ section {
 /* End Work Styles */
 
 /* Contact Styles */
+#contact {
+    text-align: center;
+}
+#contact-container {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
 #contact h2 {
-    font-size: 42px;
-    padding: 90px 100px 10px 0;
+    font-size: 46px;
+    padding: 100px 100px 0px 0;
+}
+
+#contact ul {
+    margin: 20px 0 50px 170px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 2.5em;
+    font-weight: bold;
+    letter-spacing: .05em;
 }
 /* End Contact Styles */
 
