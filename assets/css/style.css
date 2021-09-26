@@ -1,9 +1,12 @@
+/* Site Colors */
 :root {
     --primary-color: #000980;
     --white: #ffffff;
     --accent-color: #8a0096;
 }
+/* End Site Colors */
 
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +42,7 @@ a:hover {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
+/* End Global Styles */
 
 /* Header Styles */
 header {
@@ -144,7 +148,6 @@ section {
 }
 
 #about-text .paragraph-start {
-    display: inline-block;
     font-weight: bold;
     font-size: 1.25em;
 }
