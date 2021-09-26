@@ -416,6 +416,8 @@ footer {
 
     #legal {
         text-align: left;
+        font-size: 12px;
+        margin-left: 25px;
     }
 }
 
