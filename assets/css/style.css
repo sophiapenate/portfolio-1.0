@@ -283,6 +283,10 @@ footer {
         font-size: 18px;
     }
 
+    #main-menu a {
+        margin: 0 15px;
+    }
+
     #hero h2 {
         font-size: 36px;
     }
@@ -326,6 +330,16 @@ footer {
         width: 50%;
         margin-right: 20%;
     }
+
+    #about h2 {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    #about img {
+        margin-top: 90px;
+        margin-right: 10%;
+    }
     
     #about-text {
         clear:both;
@@ -335,6 +349,10 @@ footer {
     #work li {
         flex-basis: 100%;
         margin: 40px 0 40px 0;
+    }
+
+    #work li:first-child {
+        text-align: left;
     }
     
     #work li:first-child img {
@@ -353,9 +371,9 @@ footer {
 
 @media screen and (max-width: 575px) {
     .main-section h2 {
-        font-size: 48px;
-        width: 60px;
-        height: 60px;
+        font-size: 46px;
+        width: 50px;
+        height: 50px;
     }
 
     #hero {
@@ -374,22 +392,46 @@ footer {
     }
 
     #about img {
-        margin-top: 90px;
-        margin-right: 0;
+        min-width: 100px;
     }
 
     #work h2 {
-        padding: 75px 65px 25px 35px;
+        padding: 70px 70px 30px 30px;
     }
 
     #contact h2 {
-        font-size: 36px;
-        padding: 85px 95px 15px 5px;
-        margin-left: 5%;
+        font-size: 32px;
+        padding: 80px 95px 20px 5px;
+        margin-left: 0;
     }
 
     #contact ul {
-        margin-left: 25%;
+        margin-left: 15%;
+        font-size: 16px;
+    }
+
+    #footer-menu ul {
+        justify-content: flex-start;
+    }
+
+    #legal {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main-section h2 {
+        font-size: 38px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #contact h2 {
+        padding: 70px 95px 30px 5px;
+    }
+
+    #contact ul {
+        margin-left: 0;
     }
 }
 /* End Media Queries */
