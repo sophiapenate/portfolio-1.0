@@ -8,7 +8,7 @@ A mobile responsive website sharing my work, contact information and a little bi
 * CSS
 
 ## Website
-https://sophiabarrett.github.io/portfolio/
+https://sophiabarrett.github.io/portfolio-1.0/
 
 ## Contribution
 Made with ♥︎ by Sophia Barrett
